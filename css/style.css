@@ -313,6 +313,12 @@ body {
     text-decoration: none;
 }
 
+.mobile-nav ul li a:hover {
+    color: var(--light);
+    cursor: pointer;
+}
+
+
 .mobile-nav ul li {
     margin: 4rem;
 }
