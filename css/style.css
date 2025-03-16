@@ -22,24 +22,30 @@ body {
     align-items: center;
     justify-content: space-between;
     background: var(--primary);
-    border: 5px solid var(--dark);
+    border: 3px solid var(--dark);
     padding-left: 200px;
     padding-right: 200px;
-    height: 170px;
+    height: 120px;
 }
+.container .right {
 
+    
+}
 .container .right a {
+    width: 184px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid var(--dark);
+    border-bottom: 3px solid var(--dark);
+    background-color: var(--primary);
     color: var(--dark);
     text-decoration: none;
     font-family: "neighbor", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20pt;
-    background-color: var(--light);
-    height: 170px;
-    border: 3px solid transparent;
-    padding: 0 30px;
-
 }
 
 .container .right a:hover {
@@ -47,6 +53,14 @@ body {
     background-color: var(--light);
     border: 3px solid var(--dark);
 }
+
+.container .right a:active {
+    color: var(--dark);
+    background-color: var(--light);
+    border: 3px solid var(--dark);
+}
+
+
 
 /* header nav {
     padding: 4rem 0;
@@ -194,7 +208,7 @@ body {
 
 .contact .contactcontents .left {
     width: 960px;
-    max-height: 200px;
+    height: 200px;
     border: 3px solid var(--light);
     background: var(--dark);
     font-family: "neighbor", sans-serif;
@@ -211,7 +225,7 @@ body {
 
 .contact .contactcontents .right {
     width: 960px;
-    max-height: 200px;
+    height: 200px;
     border: 3px solid var(--light);
     background: var(--dark);
     font-family: "neighbor", sans-serif;
