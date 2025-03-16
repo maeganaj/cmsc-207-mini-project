@@ -23,6 +23,8 @@ header {
 
 .container {
     padding: 0 15px;
+    padding-left: 600px;
+    padding-right: 600px;
     margin: 0 auto;
 }
 
@@ -89,20 +91,76 @@ header nav {
     font-size: 28px;
 }
 
+.interests {
+    background: var(--light);
+}
 
+.interests .myinterests {
+    background: var(--dark);
+    padding-top: 70px;
+    padding-bottom: 70px;
 
+}
+
+.interests .myinterests h1 {
+    color: var(--primary);
+    text-align: center;
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 94px;
+}
+
+.interests .interestscontents {
+    align-items: center;
+}
+
+.interests .left {
+    background: var(--light);
+    border: 3px solid var(--dark);
+}
+
+.interests .right {
+    background: var(--light);
+    border: 3px solid var(--dark);
+}
+
+.interests .left .taeyeonright h1 {
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 90px;
+    color: var(--dark);
+}
+
+.interests .right .wizardingleft h1 {
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 90px;
+    color: var(--dark);
+}
+
+.interests .left .taeyeonright p {
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--dark);
+}
+
+.interests .right .wizardingleft p {
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--dark);
+}
 
 /* .hero .right img {
     width: 40px;
 }
  */
-
-
-
-
-
-
-
 
 /* .btn {
     margin-top: 0;
