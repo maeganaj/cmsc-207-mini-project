@@ -9,6 +9,7 @@
 body {
      font-family: "neighbor", sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -17,22 +18,100 @@ body {
 
 header {
     background: var(--primary);
-    border: 2px solid var(--dark);
+    border: 5px solid var(--dark);
 }
 
 .container {
-    max-width: 1152;
+    max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-header nav {
-    padding: 2rem 0;
-}
-
-.btn {
-    padding: 5rem 5rem;
+header nav .right a {
+    color: var(--dark);
+    margin-right: 2rem;
+    text-decoration: none;
     font-family: "neighbor", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 20pt;
+    background-color: var(--primary);
+    border: 3px solid transparent;
+    padding: 15px 30px;
+    display: inline-block;
+
 }
+
+header nav .right a:hover {
+    color: var(--dark);
+    background-color: var(--light);
+    border: 3px solid var(--dark);
+}
+
+header nav {
+    padding: 4rem 0;
+}
+
+.hero {
+    background: var(--light);
+    border-bottom: 3px solid var(--dark);
+    border-left: 3px solid var(--dark);
+    border-right: 3px solid var(--dark);
+}
+
+
+
+.hero .left h1 {
+    color: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 67px;
+}
+
+.hero .left h1 span {
+    color: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.hero .left p {
+    color: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+
+
+
+/* .hero .right img {
+    width: 40px;
+}
+ */
+
+
+
+
+
+
+
+
+/* .btn {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26pt;
+    color: var(--dark);
+}
+
+.btn-primary {
+    background: var(--primary);
+    border: 5px solid var(--dark);
+} */
