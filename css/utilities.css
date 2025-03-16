@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 5rem 5rem;
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
