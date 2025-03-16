@@ -6,6 +6,10 @@
     --dark : #25092E;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
      font-family: "neighbor", sans-serif;
 }
@@ -27,10 +31,7 @@ body {
     padding-right: 200px;
     height: 120px;
 }
-.container .right {
 
-    
-}
 .container .right a {
     width: 184px;
     height: 120px;
