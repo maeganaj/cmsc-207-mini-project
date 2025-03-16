@@ -16,43 +16,43 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background: var(--primary);
-    border: 5px solid var(--dark);
-}
 
 .container {
-    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary);
+    border: 5px solid var(--dark);
     padding-left: 200px;
     padding-right: 200px;
-    margin: 0 auto;
+    height: 170px;
 }
 
-header nav .right a {
+.container .right a {
     color: var(--dark);
     text-decoration: none;
     font-family: "neighbor", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20pt;
-    background-color: var(--primary);
+    background-color: var(--light);
+    height: 170px;
     border: 3px solid transparent;
-    padding: 15px 30px;
-    display: inline-block;
+    padding: 0 30px;
 
 }
 
-header nav .right a:hover {
+.container .right a:hover {
     color: var(--dark);
     background-color: var(--light);
     border: 3px solid var(--dark);
 }
 
-header nav {
+/* header nav {
     padding: 4rem 0;
-}
+} */
 
-.hero {
+.about {
     background: var(--light);
     border-bottom: 3px solid var(--dark);
     border-left: 3px solid var(--dark);
@@ -63,11 +63,11 @@ header nav {
     padding-bottom: 100px;
 }
 
-/* .hero .left {
+/* .about .left {
     padding-left: 450px;
 } */
 
-.hero .left h1 {
+.about .left h1 {
     color: var(--dark);
     font-family: "neighbor", sans-serif;
     font-weight: 300;
@@ -75,14 +75,14 @@ header nav {
     font-size: 67px;
 }
 
-.hero .left h1 span {
+.about .left h1 span {
     color: var(--dark);
     font-family: "neighbor", sans-serif;
     font-weight: 900;
     font-style: italic;
 }
 
-.hero .left p {
+.about .left p {
     color: var(--dark);
     font-family: "neighbor", sans-serif;
     font-weight: 400;
@@ -163,7 +163,107 @@ header nav {
     color: var(--dark);
 }
 
-/* .hero .right img {
+.contact .contactme {
+    background: var(--primary);
+    padding-left: 200px ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 3px solid var(--dark);
+}
+
+.contact .contactme h1 {
+    color: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 94px;
+}
+
+.contact .contactme p {
+    color: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+}
+
+.contact .contactcontents {
+    display: flex;
+    justify-content: center;    
+}
+
+.contact .contactcontents .left {
+    width: 960px;
+    max-height: 200px;
+    border: 3px solid var(--light);
+    background: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: var(--light);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact .contactcontents .right {
+    width: 960px;
+    max-height: 200px;
+    border: 3px solid var(--light);
+    background: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: var(--light);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* .contact .container {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: 200px;
+    background: var(--dark);
+    font-family: "neighbor", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    color: var(--light);
+    text-align: center;
+    
+}  */
+/* .contact .container .left {
+    background: var(--dark);
+    border: 3px solid var(--light);
+}
+
+.contact .container .right {
+    background: var(--dark);
+    border: 3px solid var(--light);
+} */
+
+
+
+
+
+
+
+/* 
+.contact .container .right {
+
+} */
+
+
+/* .about .right img {
     width: 40px;
 }
  */
